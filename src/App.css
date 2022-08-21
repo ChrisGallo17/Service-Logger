@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.mui-header {
+  backdrop-filter: blur(20px);
+  box-shadow: rgb(19 47 76) 0px -1px 1px inset;
+  background-color: rgba(10, 25, 41, 0.72);
+}
