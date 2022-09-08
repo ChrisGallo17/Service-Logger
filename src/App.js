@@ -2,6 +2,7 @@ import './App.css';
 import ResponsiveAppBar from './components/ResponsiveAppBar';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
+import ServiceForm from './components/ServiceForm';
 
 const darkTheme = createTheme({
   palette: {
@@ -16,6 +17,7 @@ function App() {
       <div className="App">
         <header className="">
           <ResponsiveAppBar />  
+          <ServiceForm />
         </header>
       </div>
     </ThemeProvider>

@@ -38,6 +38,10 @@ const ResponsiveAppBar = () => {
     setAnchorElUser(null);
   };
 
+  const handlePullData = () => {
+    
+  };
+
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
@@ -94,6 +98,9 @@ const ResponsiveAppBar = () => {
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
+              <MenuItem key={"pullData"} onClick={handlePullData}>
+                <Typography textAlign="center">Pull Mongo</Typography>
+              </MenuItem>
             </Menu>
           </Box>
           <CarRepairIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
